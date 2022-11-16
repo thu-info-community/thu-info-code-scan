@@ -1,0 +1,9 @@
+/.idea
+/.env
+/.vscode
+/node_modules
+index.js
+index.d.ts
+index.js.map
+yarn-error.log
+.DS_Store

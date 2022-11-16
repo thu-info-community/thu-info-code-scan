@@ -1,0 +1,39 @@
+{
+  "name": "thu-info-code-scan",
+  "version": "0.0.1",
+  "description": "Scan source code of thu-info-lib for login requests.",
+  "main": "index.js",
+  "license": "MIT",
+  "files": [
+    "index.ts",
+    "index.js",
+    "index.js.map",
+    "index.d.ts",
+    "scan"
+  ],
+  "bin": {
+    "thu-info-code-scan": "./scan"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node index.js",
+    "preversion": "git pull --rebase && yarn && yarn build && yarn test"
+  },
+  "maintainers": [
+    {
+      "name": "UNIDY2002",
+      "email": "UNIDY2002@outlook.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thu-info-community/thu-info-code-scan.git"
+  },
+  "dependencies": {
+    "typescript": "4.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.9",
+    "thu-info-lib": "5.3.1"
+  }
+}
