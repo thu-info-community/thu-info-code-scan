@@ -143,10 +143,10 @@ css-what@^6.1.0:
   resolved "https://registry.yarnpkg.com/css-what/-/css-what-6.1.0.tgz#fb5effcf76f1ddea2c81bdfaa4de44e79bac70f4"
   integrity sha512-HTUrgRJ7r4dsZKU6GjmpfRK1O76h97Z8MfS1G0FozR+oF2kG6Vfe8JE6zwrkbxigziPHinCJ+gCPjA9EaBDtRw==
 
-dayjs@1.11.7:
-  version "1.11.7"
-  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.7.tgz#4b296922642f70999544d1144a2c25730fce63e2"
-  integrity sha512-+Yw9U6YO5TQohxLcIkrXBeY73WP3ejHWVvx8XCk3gxvQDCTEmS48ZrSZCKciI7Bhl/uCMyxYtE9UqRILmFphkQ==
+dayjs@1.11.8:
+  version "1.11.8"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.8.tgz#4282f139c8c19dd6d0c7bd571e30c2d0ba7698ea"
+  integrity sha512-LcgxzFoWMEPO7ggRv1Y2N31hUf2R0Vj7fuy/m+Bg1K8rr+KAs1AEy4y9jd5DXe8pbHgX+srkHNS7TH6Q6ZhYeQ==
 
 dom-serializer@^2.0.0:
   version "2.0.0"
@@ -347,15 +347,15 @@ text-segmentation@^1.0.3:
   dependencies:
     utrie "^1.0.2"
 
-thu-info-lib@6.2.4:
-  version "6.2.4"
-  resolved "https://registry.yarnpkg.com/thu-info-lib/-/thu-info-lib-6.2.4.tgz#6b066a78eeff67a4f1d975ab64ccfec519070fc7"
-  integrity sha512-C/hOHU2IgRS1SGnI9g2tpIeF1p7N0erNvR/qDC5o/Nf6BPs4fmfa7/Ps79kPpz3gbgmBk3O1HduZAVadm+NC9Q==
+thu-info-lib@6.4.0:
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/thu-info-lib/-/thu-info-lib-6.4.0.tgz#99b0ad62531053a87d4b31b3c5fafdf820a15676"
+  integrity sha512-N1O9A+0/aMk8A6FiYtTESWZqkkTBLRwOh9REwh4DAika8h+For+uEg3ENdwzElq+hXaoz6/tEhp1rHYMBfejgQ==
   dependencies:
     abort-controller "3.0.0"
     cheerio "1.0.0-rc.12"
     cross-fetch "3.1.6"
-    dayjs "1.11.7"
+    dayjs "1.11.8"
     he "^1.2.0"
     iconv-lite "0.6.3"
     image-size "^1.0.1"
