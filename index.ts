@@ -131,6 +131,7 @@ const scanPassword = (rootNode: ts.Node) => {
             case ts.SyntaxKind.ImportDeclaration:
             case ts.SyntaxKind.ImportEqualsDeclaration:
             case ts.SyntaxKind.TypeAliasDeclaration:
+            case ts.SyntaxKind.EnumDeclaration:
                 break;
             case ts.SyntaxKind.VariableStatement:
                 if (c.getText().includes("helper.password")) {
