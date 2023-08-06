@@ -120,6 +120,11 @@ cross-fetch@4.0.0:
   dependencies:
     node-fetch "^2.6.12"
 
+crypto-js@4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-4.1.1.tgz#9e485bcf03521041bd85844786b83fb7619736cf"
+  integrity sha512-o2JlM7ydqd3Qk9CA0L4NL6mTzU2sdx96a+oOfPu8Mkl/PK51vSyoi8/rQ8NknZtk44vq15lmhAj9CIAGwgeWKw==
+
 css-line-break@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/css-line-break/-/css-line-break-2.1.0.tgz#bfef660dfa6f5397ea54116bb3cb4873edbc4fa0"
@@ -347,14 +352,15 @@ text-segmentation@^1.0.3:
   dependencies:
     utrie "^1.0.2"
 
-thu-info-lib@6.6.1:
-  version "6.6.1"
-  resolved "https://registry.yarnpkg.com/thu-info-lib/-/thu-info-lib-6.6.1.tgz#9d5d760add833352f8223c800b81cb31f74982ae"
-  integrity sha512-NRdAfSO/B4PP4pdnXaDghWRntBs7IkAkIiDQ+RFIQcwrstZvPw+zPz7s708VEPZ2pm8MFrJYalBUu4d8S14IcQ==
+thu-info-lib@6.6.3:
+  version "6.6.3"
+  resolved "https://registry.yarnpkg.com/thu-info-lib/-/thu-info-lib-6.6.3.tgz#d1a53bee9e2db478a6afcf15c451b2291063e7e3"
+  integrity sha512-wixexOCRGG+iLPZ7vHRUNkgihkKQHRd1T7KQdUudlU8zlXGMG/fZeyjybC33+lXyVmuxgUfdp4QjuMo45DILhg==
   dependencies:
     abort-controller "3.0.0"
     cheerio "1.0.0-rc.12"
     cross-fetch "4.0.0"
+    crypto-js "4.1.1"
     dayjs "1.11.9"
     he "^1.2.0"
     iconv-lite "0.6.3"
