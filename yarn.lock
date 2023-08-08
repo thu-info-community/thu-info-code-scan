@@ -352,10 +352,10 @@ text-segmentation@^1.0.3:
   dependencies:
     utrie "^1.0.2"
 
-thu-info-lib@6.6.3:
-  version "6.6.3"
-  resolved "https://registry.yarnpkg.com/thu-info-lib/-/thu-info-lib-6.6.3.tgz#d1a53bee9e2db478a6afcf15c451b2291063e7e3"
-  integrity sha512-wixexOCRGG+iLPZ7vHRUNkgihkKQHRd1T7KQdUudlU8zlXGMG/fZeyjybC33+lXyVmuxgUfdp4QjuMo45DILhg==
+thu-info-lib@6.6.6:
+  version "6.6.6"
+  resolved "https://registry.yarnpkg.com/thu-info-lib/-/thu-info-lib-6.6.6.tgz#2989a1fd4a2148a8be46f84002f93c92fa69b76b"
+  integrity sha512-h4aDSwbQtFr6BULF6qPxVoPTg1rge0TF9K149gB/YjLCZHCrqLVU8J4AvI/nZ6X1eAMRHAAwcdohEOz8ExTipQ==
   dependencies:
     abort-controller "3.0.0"
     cheerio "1.0.0-rc.12"
