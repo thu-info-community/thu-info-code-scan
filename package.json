@@ -34,6 +34,6 @@
   },
   "devDependencies": {
     "@types/node": "18.17.3",
-    "thu-info-lib": "6.6.6"
+    "thu-info-lib": "7.0.0"
   }
 }
