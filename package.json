@@ -33,7 +33,7 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
-    "@types/node": "18.17.4",
+    "@types/node": "18.17.5",
     "thu-info-lib": "7.0.4"
   }
 }
