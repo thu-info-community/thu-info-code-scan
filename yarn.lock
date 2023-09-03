@@ -317,10 +317,10 @@ text-segmentation@^1.0.3:
   dependencies:
     utrie "^1.0.2"
 
-thu-info-lib@7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/thu-info-lib/-/thu-info-lib-7.1.0.tgz#a98c17a55ebbe3221524c03d08b74dbbf4ff77c3"
-  integrity sha512-nZLBGZntWe30BxKB4PEMs08mThfsljlTURyJJa2HELCedSQbKmlTCjiOGPHnHTh8Y7YZD/z2AscG1IXkA/AsFw==
+thu-info-lib@7.1.2:
+  version "7.1.2"
+  resolved "https://registry.yarnpkg.com/thu-info-lib/-/thu-info-lib-7.1.2.tgz#6a891653cb27511b9e5b48e9e6a511a688bb5925"
+  integrity sha512-I0TfNhU/EahgK1u5AoY/xTKl6BEtlF1uSSs7azaIRZUbXvC/vpDVM98n+aU4b5SbD0zpc0vbEIFkyiQhqI27mw==
   dependencies:
     abort-controller "3.0.0"
     cheerio "1.0.0-rc.12"
