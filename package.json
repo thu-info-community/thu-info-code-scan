@@ -30,7 +30,7 @@
     "url": "https://github.com/thu-info-community/thu-info-code-scan.git"
   },
   "dependencies": {
-    "typescript": "5.4.2"
+    "typescript": "5.4.3"
   },
   "devDependencies": {
     "@types/node": "20.11.30",
